@@ -1,0 +1,92 @@
+body {
+    height: fit-content;
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 4%;
+}
+.table {
+
+}
+
+table, th, td {
+    display: flexbox;
+    font-size: 18px;
+    text-align: left;
+    color: green;
+    width: 100%;
+    box-flex-group: gray;
+    padding: 40px;
+  } 
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    list-style: none; /* Removes default bullet points */
+    width: 60%; /* Makes the ul take full width of its container */
+}
+
+ul li {
+    margin: 0 8px; /* Horizontal spacing of 8px between list items */
+    font-family: Arial, sans-serif; /* Font style (optional) */
+}
+
+.contact-button {
+text-align: center;
+color: white;
+background-color: blue;
+border-radius: 6px;
+padding: 0 25 0 25 0;
+}
+
+/* Ensure this is in your CSS file or <style> tag */
+.second-section {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#news-card {
+    display: flex;
+    flex-direction: column; /* Ensures that the image and content are stacked vertically */
+    border-radius: 10px;
+    border: 1px solid black; /* Defines the border with a thickness */
+    padding: 10px; /* Padding around the content */
+    overflow: hidden;
+    max-width: 600px; /* Optional: sets a max width for better layout control */
+    background-color: #fff; /* Background color for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+}
+
+#news-card img {
+    width: 100%; /* Makes the image fill the width of the card */
+    height: auto; /* Keeps the aspect ratio of the image */
+    border-bottom: 1px solid #ddd; /* Optional: adds a separator line between the image and content */
+}
+
+.card-content {
+    padding: 10px; /* Padding inside the content area */
+}
+
+.card-content h1 {
+    margin-top: 0; /* Removes the top margin from the heading */
+    font-size: 1.5em; /* Adjust font size as needed */
+}
+
+.card-content p {
+    margin: 10px 0; /* Adds spacing above and below the paragraph */
+}
+
+.card-content a {
+    color: #3498db; /* Sets the link color */
+    text-decoration: none; /* Removes underline from the link */
+    font-weight: bold; /* Makes the link text bold */
+}
+
+.card-content a:hover {
+    text-decoration: underline; /* Underlines the link on hover */
+}
+
+
